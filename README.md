@@ -145,3 +145,58 @@ Total time taken for all guests to enter: 30ms
 ## Conclusion:
 We observe that the runtime remains consistent even when the number of guests is increased by a factor of 5. This demonstrates the efficiency of the solution.
 
+
+# Problem two:
+In this scenario, a third strategy is implemented. This strategy involves allowing only one guest to enter the showroom at a time. Once a guest leaves, the next guest is allowed to enter, and this process continues. Each guest stays in the showroom for a random amount of time.
+
+The time efficiency of this strategy is considered quite favorable. By allowing only one guest to enter at a time, we prevent any potential arguments between guests about who should go first. Below are some test cases demonstrating the effectiveness of this strategy:
+
+## Test Case 1:
+
+Number of Guests = 10
+
+Output:
+
+Guest 1 enters the showroom.
+
+Guest 1 leaves the showroom.
+
+Guest 2 enters the showroom.
+
+Guest 2 leaves the showroom.
+
+Guest 8 enters the showroom.
+
+Guest 8 leaves the showroom.
+
+Guest 5 enters the showroom.
+
+Guest 5 leaves the showroom.
+
+Guest 3 enters the showroom.
+
+Guest 3 leaves the showroom.
+
+Guest 7 enters the showroom.
+
+Guest 7 leaves the showroom.
+
+Guest 10 enters the showroom.
+
+Guest 10 leaves the showroom.
+
+Guest 9 enters the showroom.
+
+Guest 9 leaves the showroom.
+
+Guest 4 enters the showroom.
+
+Guest 4 leaves the showroom.
+
+Guest 6 enters the showroom.
+
+Guest 6 leaves the showroom.
+
+## Conclusion:
+We observe that all guests enter the showroom one by one
+
